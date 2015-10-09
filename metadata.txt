@@ -10,6 +10,7 @@
 
 [general]
 name=Polygon Splitter
+about=Splits polygons into equal area parts vertically, horizontally, or alternating
 qgisMinimumVersion=2.0
 description=Split polygons into equal area parts 
 version=0.2
