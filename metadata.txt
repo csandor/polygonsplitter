@@ -26,9 +26,9 @@ email=info@viamap.hu
 # tags are comma separated with spaces allowed
 tags=polygon, split, geometry, slice
 
-homepage=
-tracker=
-repository=
+homepage=https://github.com/csandor/polygonsplitter/
+tracker=https://github.com/csandor/polygonsplitter/issues
+repository=https://github.com/csandor/polygonsplitter.git
 icon=polygon_splitter.png
 # experimental flag
 experimental=True
