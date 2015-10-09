@@ -12,7 +12,7 @@
 name=Polygon Splitter
 qgisMinimumVersion=2.0
 description=Split polygons into equal area parts 
-version=0.1
+version=0.2
 author=ViaMap Ltd.
 email=info@viamap.hu
 

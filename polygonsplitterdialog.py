@@ -21,7 +21,7 @@
 """
 
 from PyQt4 import QtCore, QtGui
-from ui_polygonsplitter import Ui_polygonsplitter
+from ui_polygonsplitter_ui import Ui_polygonsplitter
 # create the dialog for zoom to point
 
 

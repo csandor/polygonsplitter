@@ -202,8 +202,8 @@ class EqSplitPolygon:
         fet.setGeometry(geom)
         area=geom.area()#/1000000
         if self.debug: print "Area of geom added to layer:", str(area)
-        fet.setAttributeMap( { 0 : QVariant(area) } )
         layer.dataProvider().addFeatures([fet])
+        layer.dataProvider().changeAttributeValues({fet.id(): { 0: area}});
         layer.updateExtents()
 
     def signedDistCentroidFromLine(self,geom,startPt,endPt):
